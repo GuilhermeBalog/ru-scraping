@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 module.exports = async function scrape(){
     console.log('> Lauching Browser')
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] })
 
     console.log('> Opening new Page')
     const page = await browser.newPage()
