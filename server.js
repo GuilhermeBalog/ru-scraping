@@ -5,8 +5,11 @@ const scrape = require('./scrape')
 const app = express()
 
 app.get('/', (req, res) => {
-    scrape().then(data => {
-        res.json(data)
+    scrape()
+    .then(result => {
+        if(result.hasError) res.status(500)
+
+        return res.json(result.data)
     })
 })
 
