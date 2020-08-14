@@ -17,7 +17,7 @@ module.exports = async function scrape(){
         console.log('> Loading page content')
         await page.waitFor(2000)
     } catch(err){
-        return { error: 'Cannot acces the page' }
+        return { erro: 'Cannot acces the page' }
     }
 
     console.log('> Evaluating content')
@@ -46,7 +46,7 @@ module.exports = async function scrape(){
                     adicionais: receitas[8].split('/'),
                 }
             else
-                return { error: receitas[0] }
+                return { erro: receitas[0] }
         }
     })
     

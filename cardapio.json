@@ -1,0 +1,80 @@
+{
+	"segunda": {
+		"almoco": {
+			"acompanhamentos": [
+				"Arroz",
+				"feijão",
+				"arroz integral",
+				"Macarrão com molho sugo"
+			],
+			"pratosPrincipais": [
+				"Filé de frango com molho de mostarda",
+				"Opção: PVT com vagem "
+			],
+			"saladas": [
+				"Salada de acelga",
+				"Salada de pepino",
+				"Salada de ervilha"
+			],
+			"sobremesas": [
+				"Maxi chocolate",
+				"melão"
+			],
+			"adicionais": [
+				"Minipão",
+				"refresco"
+			]
+		},
+		"jantar": {
+			"erro": "Informamos que a partir de amanhã, 24/03, terça-feira, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		}
+	},
+	"terca": {
+		"almoco": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		},
+		"jantar": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		}
+	},
+	"quarta": {
+		"almoco": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		},
+		"jantar": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		}
+	},
+	"quinta": {
+		"almoco": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		},
+		"jantar": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		}
+	},
+	"sexta": {
+		"almoco": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		},
+		"jantar": {
+			"erro": "Informamos que a partir de 24/03/2020, os Restaurantes Universitários estarão fechados em decorrência da quarentena decretada pelo Governo do Estado."
+		}
+	},
+	"sabado": {
+		"almoco": {
+			"erro": "Fechado"
+		},
+		"jantar": {
+			"erro": "Fechado"
+		}
+	},
+	"domingo": {
+		"almoco": {
+			"erro": "Fechado"
+		},
+		"jantar": {
+			"erro": "Fechado"
+		}
+	}
+}
