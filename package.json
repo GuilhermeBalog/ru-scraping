@@ -4,7 +4,8 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js -i cardapio.json"
+    "start": "node server.js",
+    "dev": "nodemon server.js -i cardapio.json"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
