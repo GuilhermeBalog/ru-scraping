@@ -4,14 +4,7 @@ const scrape = require('./scrape')
 
 const app = express()
 
-app.get('/', (req, res) => {
-    scrape()
-    .then(result => {
-        if(result.hasError) res.status(500)
-
-        return res.json(result.data)
-    })
-})
+app.get('/', (req, res) => { scrape().then(result => res.json(result))})
 
 const port = process.env.PORT || 3333
 app.listen(port, () => {
