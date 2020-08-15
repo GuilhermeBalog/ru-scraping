@@ -5,8 +5,11 @@ const scrape = require('./scrape')
 module.exports = async function saveData () {
     const result = await scrape()
 
-    fs.writeFileSync('cardapio.json', JSON.stringify(result, null, '\t'), (err) => {
+    console.log('> Saving file')
+    fs.writeFileSync('src/cardapio.json', JSON.stringify(result, null, '\t'), (err) => {
         if(err)
             throw new Error('Cannot save the file: ' + err)
-    })
+
+        })
+    console.log('> File saved!')
 }
