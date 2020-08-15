@@ -4,6 +4,8 @@ API que usa webscraping para prover o cardápio da USP Leste
 
 ## Consumindo a API
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=RU%20Scraping&uri=https%3A%2F%2Fraw.githubusercontent.com%2FGuilhermeBalog%2Fru-scraping%2Fmaster%2Finsomnia.json)
+
 Você pode consumir a API enviando um requisição GET para a url base: [`https://ru-scraping.herokuapp.com/`](https://ru-scraping.herokuapp.com/), que vai retornar um JSON com os dias da semana.
 
 ## Como instalar
