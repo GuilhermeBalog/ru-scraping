@@ -8,6 +8,8 @@ API que usa webscraping para prover o cardápio da USP Leste
 
 Você pode consumir a API enviando um requisição GET para a url base: [`https://ru-scraping.herokuapp.com/`](https://ru-scraping.herokuapp.com/), que vai retornar um JSON com os dias da semana.
 
+> [Clique aqui para acessar a documentação completa](https://guilhermebalog.github.io/ru-scraping/)
+
 ## Como instalar
 
 Requisitos:
