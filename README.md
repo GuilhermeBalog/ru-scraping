@@ -4,9 +4,7 @@ API que usa webscraping para prover o cardápio da USP Leste
 
 ## Consumindo a API
 
-Você pode consumir a API enviando um requisição GET para [`https://ru-scraping.herokuapp.com/`](https://ru-scraping.herokuapp.com/), que vai retornar um JSON com os dias da semana
-
-> **Cuidado!** Leve em conta que a requisição pode demorar um pouco. 
+Você pode consumir a API enviando um requisição GET para a url base: [`https://ru-scraping.herokuapp.com/`](https://ru-scraping.herokuapp.com/), que vai retornar um JSON com os dias da semana.
 
 ## Como instalar
 
@@ -32,7 +30,8 @@ yarn install
 Rode o servidor
 
 ```bash
-node server.js
+npm run start #ou
+yarn start
 ```
 
 ## Referencias

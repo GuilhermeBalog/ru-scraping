@@ -1,0 +1,157 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-08-15T14:57:02.035Z",
+    "__export_source": "insomnia.desktop.app:v2020.3.3",
+    "resources": [
+        {
+            "_id": "req_9eda41b4d45646c183fddd25d586e511",
+            "authentication": {},
+            "body": {},
+            "created": 1584499634681,
+            "description": "Retorna o cardápio completo com todos os dias da semana\n```json\n{\n  \"segunda\": {...},\n  \"terca\": {...},\n  \"quarta\": {...},\n  \"quinta\": {...},\n  \"sexta\": {...},\n  \"sabado\": {...},\n  \"domingo\": {...}\n}\n```",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1584499634681,
+            "method": "GET",
+            "modified": 1597503080681,
+            "name": "Cardápio Completo",
+            "parameters": [],
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseURL  }}/",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "created": 1584499616853,
+            "description": "",
+            "modified": 1584499616853,
+            "name": "RU Scraping",
+            "parentId": null,
+            "scope": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_a8438b0e48794d779716b4394af3a881",
+            "authentication": {},
+            "body": {},
+            "created": 1597502902745,
+            "description": "Retorna as refeicoes de um dia especícifico\n```json\n{\n  \"almoco\": {...},\n  \"jantar\": {...}\n}\n```",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1581762000875.5,
+            "method": "GET",
+            "modified": 1597503212086,
+            "name": "Dia da semana",
+            "parameters": [],
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseURL  }}/segunda",
+            "_type": "request"
+        },
+        {
+            "_id": "req_dd9c64ee45854a668c1803c6968658e9",
+            "authentication": {},
+            "body": {},
+            "created": 1597502939808,
+            "description": "Retona os detalhes de uma refeição de um dia específico\n\n```json\n{\n  \"acompanhamentos\": [\n    \"Arroz\",\n    \"feijão\",\n    \"arroz integral\",\n    \"Macarrão com molho sugo\"\n  ],\n  \"pratosPrincipais\": [\n    \"Filé de frango com molho de mostarda\",\n    \"Opção: PVT com vagem \"\n  ],\n  \"saladas\": [\n    \"Salada de acelga\",\n    \"Salada de pepino\",\n    \"Salada de ervilha\"\n  ],\n  \"sobremesas\": [\n    \"Maxi chocolate\",\n    \"melão\"\n  ],\n  \"adicionais\": [\n    \"Minipão\",\n    \"refresco\"\n  ]\n}\n```",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1580393183972.75,
+            "method": "GET",
+            "modified": 1597503256287,
+            "name": "Refeição",
+            "parameters": [],
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseURL  }}/segunda/almoco",
+            "_type": "request"
+        },
+        {
+            "_id": "env_7e0d2c56780e1521fdbed6b8dbe2596f51ac84b2",
+            "color": null,
+            "created": 1584499617017,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1584499617017,
+            "modified": 1584499617017,
+            "name": "Base Environment",
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_7e0d2c56780e1521fdbed6b8dbe2596f51ac84b2",
+            "cookies": [],
+            "created": 1584499617020,
+            "modified": 1584499617020,
+            "name": "Default Jar",
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_31ce281d705c42388482645ed1622b12",
+            "contentType": "yaml",
+            "contents": "",
+            "created": 1597005820477,
+            "fileName": "RU Scraping",
+            "modified": 1597005820477,
+            "parentId": "wrk_6d49ee4a3f0b4ed6bcb2e469c5d16197",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_78c839041296442da83da525183365b3",
+            "color": null,
+            "created": 1584539787280,
+            "data": {
+                "baseURL": "http://localhost:3333"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseURL"
+                ]
+            },
+            "isPrivate": false,
+            "metaSortKey": 1584539787281,
+            "modified": 1584540164607,
+            "name": "Dev",
+            "parentId": "env_7e0d2c56780e1521fdbed6b8dbe2596f51ac84b2",
+            "_type": "environment"
+        },
+        {
+            "_id": "env_6863993b9e1540f58db52bc16862bbf3",
+            "color": null,
+            "created": 1584539797159,
+            "data": {
+                "baseURL": "https://ru-scraping.herokuapp.com"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseURL"
+                ]
+            },
+            "isPrivate": false,
+            "metaSortKey": 1584539797159,
+            "modified": 1584540155610,
+            "name": "Produtcion",
+            "parentId": "env_7e0d2c56780e1521fdbed6b8dbe2596f51ac84b2",
+            "_type": "environment"
+        }
+    ]
+}
